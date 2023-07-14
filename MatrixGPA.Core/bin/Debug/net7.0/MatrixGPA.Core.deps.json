@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "MatrixGPA.Core/1.0.0": {
+        "dependencies": {
+          "MatrixGPA.Common": "1.0.0",
+          "MatrixGPA.Data": "1.0.0"
+        },
+        "runtime": {
+          "MatrixGPA.Core.dll": {}
+        }
+      },
+      "MatrixGPA.Common/1.0.0": {
+        "runtime": {
+          "MatrixGPA.Common.dll": {}
+        }
+      },
+      "MatrixGPA.Data/1.0.0": {
+        "dependencies": {
+          "MatrixGPA.Common": "1.0.0"
+        },
+        "runtime": {
+          "MatrixGPA.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MatrixGPA.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MatrixGPA.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MatrixGPA.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

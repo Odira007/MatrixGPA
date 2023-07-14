@@ -1,0 +1,12 @@
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\MatrixGPA\MatrixGPA.Common\bin\Debug\net7.0\MatrixGPA.Common.deps.json
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\MatrixGPA\MatrixGPA.Common\bin\Debug\net7.0\MatrixGPA.Common.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\MatrixGPA\MatrixGPA.Common\bin\Debug\net7.0\MatrixGPA.Common.pdb
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\MatrixGPA\MatrixGPA.Common\obj\Debug\net7.0\MatrixGPA.Common.csproj.AssemblyReference.cache
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\MatrixGPA\MatrixGPA.Common\obj\Debug\net7.0\MatrixGPA.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\MatrixGPA\MatrixGPA.Common\obj\Debug\net7.0\MatrixGPA.Common.AssemblyInfoInputs.cache
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\MatrixGPA\MatrixGPA.Common\obj\Debug\net7.0\MatrixGPA.Common.AssemblyInfo.cs
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\MatrixGPA\MatrixGPA.Common\obj\Debug\net7.0\MatrixGPA.Common.csproj.CoreCompileInputs.cache
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\MatrixGPA\MatrixGPA.Common\obj\Debug\net7.0\MatrixGPA.Common.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\MatrixGPA\MatrixGPA.Common\obj\Debug\net7.0\refint\MatrixGPA.Common.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\MatrixGPA\MatrixGPA.Common\obj\Debug\net7.0\MatrixGPA.Common.pdb
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\MatrixGPA\MatrixGPA.Common\obj\Debug\net7.0\ref\MatrixGPA.Common.dll
