@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MatrixGPA.Common\MatrixGPA.Common.csproj" />
     <ProjectReference Include="..\MatrixGPA.Data\MatrixGPA.Data.csproj" />
+    <ProjectReference Include="..\MatrixGPA.Helper\MatrixGPA.Helper.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

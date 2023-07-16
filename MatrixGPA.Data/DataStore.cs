@@ -4,5 +4,5 @@ namespace MatrixGPA.Data.Entities;
 
 public class DataStore
 {
-    public List<Course> courses = new();
+    public List<Course> courses = new List<Course>();
 }

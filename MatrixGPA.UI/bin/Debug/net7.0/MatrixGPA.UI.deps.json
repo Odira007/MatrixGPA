@@ -10,7 +10,8 @@
         "dependencies": {
           "Figgle": "0.5.1",
           "MatrixGPA.Common": "1.0.0",
-          "MatrixGPA.Core": "1.0.0"
+          "MatrixGPA.Core": "1.0.0",
+          "MatrixGPA.Data": "1.0.0"
         },
         "runtime": {
           "MatrixGPA.UI.dll": {}
@@ -32,7 +33,8 @@
       "MatrixGPA.Core/1.0.0": {
         "dependencies": {
           "MatrixGPA.Common": "1.0.0",
-          "MatrixGPA.Data": "1.0.0"
+          "MatrixGPA.Data": "1.0.0",
+          "MatrixGPA.Helper": "1.0.0"
         },
         "runtime": {
           "MatrixGPA.Core.dll": {}
@@ -44,6 +46,15 @@
         },
         "runtime": {
           "MatrixGPA.Data.dll": {}
+        }
+      },
+      "MatrixGPA.Helper/1.0.0": {
+        "dependencies": {
+          "MatrixGPA.Common": "1.0.0",
+          "MatrixGPA.Data": "1.0.0"
+        },
+        "runtime": {
+          "MatrixGPA.Helper.dll": {}
         }
       }
     }
@@ -72,6 +83,11 @@
       "sha512": ""
     },
     "MatrixGPA.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MatrixGPA.Helper/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

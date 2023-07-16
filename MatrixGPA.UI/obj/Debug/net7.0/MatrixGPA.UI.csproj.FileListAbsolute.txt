@@ -21,3 +21,5 @@ C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\MatrixGPA\MatrixGPA.UI\obj\Debug\net7.0\r
 C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\MatrixGPA\MatrixGPA.UI\obj\Debug\net7.0\MatrixGPA.UI.pdb
 C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\MatrixGPA\MatrixGPA.UI\obj\Debug\net7.0\MatrixGPA.UI.genruntimeconfig.cache
 C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\MatrixGPA\MatrixGPA.UI\obj\Debug\net7.0\ref\MatrixGPA.UI.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\MatrixGPA\MatrixGPA.UI\bin\Debug\net7.0\MatrixGPA.Helper.dll
+C:\Users\ODIRA.DESKTOP-II4QM4T\Desktop\MatrixGPA\MatrixGPA.UI\bin\Debug\net7.0\MatrixGPA.Helper.pdb

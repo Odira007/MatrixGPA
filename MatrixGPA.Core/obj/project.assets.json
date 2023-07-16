@@ -24,6 +24,20 @@
         "runtime": {
           "bin/placeholder/MatrixGPA.Data.dll": {}
         }
+      },
+      "MatrixGPA.Helper/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MatrixGPA.Common": "1.0.0",
+          "MatrixGPA.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MatrixGPA.Helper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MatrixGPA.Helper.dll": {}
+        }
       }
     }
   },
@@ -37,12 +51,18 @@
       "type": "project",
       "path": "../MatrixGPA.Data/MatrixGPA.Data.csproj",
       "msbuildProject": "../MatrixGPA.Data/MatrixGPA.Data.csproj"
+    },
+    "MatrixGPA.Helper/1.0.0": {
+      "type": "project",
+      "path": "../MatrixGPA.Helper/MatrixGPA.Helper.csproj",
+      "msbuildProject": "../MatrixGPA.Helper/MatrixGPA.Helper.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "MatrixGPA.Common >= 1.0.0",
-      "MatrixGPA.Data >= 1.0.0"
+      "MatrixGPA.Data >= 1.0.0",
+      "MatrixGPA.Helper >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -77,6 +97,9 @@
             },
             "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\MatrixGPA\\MatrixGPA.Data\\MatrixGPA.Data.csproj": {
               "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\MatrixGPA\\MatrixGPA.Data\\MatrixGPA.Data.csproj"
+            },
+            "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\MatrixGPA\\MatrixGPA.Helper\\MatrixGPA.Helper.csproj": {
+              "projectPath": "C:\\Users\\ODIRA.DESKTOP-II4QM4T\\Desktop\\MatrixGPA\\MatrixGPA.Helper\\MatrixGPA.Helper.csproj"
             }
           }
         }

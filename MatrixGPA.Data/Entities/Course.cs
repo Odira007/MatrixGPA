@@ -1,15 +1,17 @@
 using MatrixGPA.Common;
 
+
 namespace MatrixGPA.Data.Entities;
 
 public class Course
 {
-    public string courseCode { get; set; }
-    public int courseUnit {get; set;}
-    public int courseScore {get; set;}
-    public Grades studentGrade {get; set;}
+    public string courseCode;
+    public int courseUnit;
+    public int courseScore;
+    public Grades studentGrade;
+    public int studentGradeUnit;
     public int weightPoint;
-    public string gradeRemark {get; set;}
+    public string gradeRemark;
 
     public Course() {}
 
@@ -18,10 +20,8 @@ public class Course
         this.courseCode = _courseCode;
         this.courseUnit = _courseUnit;
         this.courseScore = _courseScore; 
-    }
 
-    public static explicit operator Course(string v)
-    {
-        throw new NotImplementedException();
+        
+        weightPoint = courseUnit * (int)studentGrade;
     }
 }
