@@ -5,12 +5,10 @@ namespace MatrixGPA.Core;
 
 public class GradingService
 {
-    public void CalculateGPA(StudentResult student)
+    public static void CalculateGPA(StudentResult student)
     {
-        decimal gpa = student.totalWeightPoint / student.totalCourseUnitsPassed;
-
-        PrintTable table = new();
-        DataStore coursedata = new();
-        table.getTable(coursedata, student, gpa);
+        decimal gpa = (decimal)student.totalWeightPoint / (decimal)student.totalCourseUnits;
+        
+        PrintTable.getTable(student, gpa);
     }
 }

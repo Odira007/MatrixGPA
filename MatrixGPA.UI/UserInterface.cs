@@ -10,9 +10,8 @@ namespace MatrixGPA.UI
 {
     public class UserInterface
     {
-        public void Start()
+        public static void Start()
         {
-            DataStore courseDetails = new();
             Clear();
             WriteLine(FiggleFonts.Ogre.Render("MatrixGPA"));
 
@@ -20,25 +19,21 @@ namespace MatrixGPA.UI
             WriteLine("Enter your course code, course unit and course score in the following format: BLA101 5 50");
             WriteLine();
 
-            StudentResult result = new();
-            StudentService student = new();
-            Course course;
+            var student = new StudentResult();
             var grading = new GradingService();
 
-            DataStore courseData = new();
-
+            string input;
             string calculate = string.Empty;
             var validateCourse = new Regex(@"^\w{1,3}\d{1,3}\s{1}[1-5]{1}\s{1}([0-9]|[1-9][0-9]|100)$");
 
-            string input;
             start:
             do
             {
                 Write("Course code, course unit and course score: ");
                 input = ReadLine().ToUpper();
                 string[] courseArray = input.Split(" ");
-                course = new Course(courseArray[0], Convert.ToInt32(courseArray[1]), Convert.ToInt32(courseArray[2]));
-                courseData.courses.Add(course);
+                var course = new Course(courseArray[0], int.Parse(courseArray[1]), int.Parse(courseArray[2]));
+                student.courses.Add(course);
                 if (!validateCourse.IsMatch(input))
                 {
                     WriteLine("Your input was in the wrong format, try again :)");
@@ -50,11 +45,11 @@ namespace MatrixGPA.UI
             }
             while(calculate != "Y");
 
-            foreach(Course c in courseData.courses)
+            foreach(Course course in student.courses)
             {
-                result.totalCourseUnits += c.courseUnit;
-                result.totalCourseUnitsPassed += (int)c.studentGrade;
-                result.totalWeightPoint += c.weightPoint;
+                student.totalCourseUnits += course.courseUnit;
+                student.totalCourseUnitsPassed += (int)course.studentGrade;
+                student.totalWeightPoint += course.weightPoint;
             }
 
             Write("Please wait while we calculate your GPA ");
@@ -67,7 +62,9 @@ namespace MatrixGPA.UI
                 }
             }
             while(DateTime.Now.Millisecond < 6);
-            grading.CalculateGPA(result);
+
+            WriteLine();
+            GradingService.CalculateGPA(student);
         }
     }
 }
